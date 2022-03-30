@@ -1,6 +1,7 @@
 package paper.foil.sample;
 
-import paper.foil.jpashoping.step1.Member;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityTransaction;
 
 public class ProxyServer implements ProxyInf{
     private final ProxyInf proxyInf;
@@ -9,8 +10,15 @@ public class ProxyServer implements ProxyInf{
     }
 
     @Override
-    public void save(Member member) {
-        proxyInf.save(member);
+    public void process(EntityManager entityManager) {
+        EntityTransaction entityTransaction = entityManager.getTransaction();
+        entityTransaction.begin();
+        try{
+            proxyInf.process(entityManager);
+        } catch (Exception exception) {
+            entityTransaction.rollback();
+        } finally {
+            entityManager.close();
+        }
     }
-
 }
