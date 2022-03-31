@@ -3,6 +3,7 @@ package paper.foil.sample;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 
+//대리자
 public class ProxyServer implements ProxyInf{
     private final ProxyInf proxyInf;
     public ProxyServer(ProxyInf proxyInf) {

@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="26665755-2dd4-44e7-b285-bd4ceee24308" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paper/foil/sample/ProxyInf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paper/foil/sample/ProxyInf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/paper/foil/sample/ProxyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paper/foil/sample/ProxyMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/paper/foil/sample/ProxyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paper/foil/sample/ProxyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paper/foil/service/ProxyTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paper/foil/service/ProxyTarget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

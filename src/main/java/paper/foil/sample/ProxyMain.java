@@ -24,9 +24,9 @@ public class ProxyMain {
         proxyInf.process(entityManagerFactory.createEntityManager());
 
         // use class
-        ProxyInf proxyInf1 = new ProxyServer(new ProxyTarget());
-
-        proxyInf1.process(entityManagerFactory.createEntityManager());
+//        ProxyInf proxyInf1 = new ProxyServer(new ProxyTarget());
+//
+//        proxyInf1.process(entityManagerFactory.createEntityManager());
 
     }
 }
